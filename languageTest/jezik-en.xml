@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animals>
+    <cats>
+        <cat breed="Siberian" color="lightgray">Tinna</cat>
+    </cats>
+    <dogs>
+        <dog breed="Bull Terrier" color="white">Villy</dog>
+    </dogs>
+</animals>

@@ -15,6 +15,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var idiDugme: UIButton!
     @IBOutlet weak var jezikDugme: UIButton!
+    @IBOutlet weak var label2: UILabel!
+    
+    var strXMLData:String = ""
+    var currentElement:String = ""
+    var passData:Bool=false
+    var passName:Bool=false
+    var parser = XMLParser()
     
     var fileDirectoryPath: String!
     var path2: String!
@@ -37,7 +44,6 @@ class ViewController: UIViewController {
         path2 = Bundle.main.resourcePath! + "/alb2-en.json"// putanja do fajla u (USER/USER/Bundle...)
         
         
-        
         //proverim da li postoji taj fajl
         
         var objcBool:ObjCBool = true
@@ -56,6 +62,11 @@ class ViewController: UIViewController {
         let a = fileDirectoryPath
         let b = try! String(contentsOfFile: a!)
         print(b)
+        
+        let filePath = Bundle.main.path(forResource: "jezik-en", ofType: "xml")
+        let xmlDict = NSDictionary().dictionaryWithXMLFile(path: filePath!)
+        print(xmlDict)
+        
     }
     
     

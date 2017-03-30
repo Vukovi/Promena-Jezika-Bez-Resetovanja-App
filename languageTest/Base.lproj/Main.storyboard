@@ -28,7 +28,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableKey" value="strings.Languages.Albanian"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableKey" value="animals.cats.cat"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITe-hQ-cjO" customClass="LocalizeButton" customModule="Localize">
@@ -50,6 +50,13 @@
                                     <action selector="promenaJezika:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gqq-DV-s0E"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9y-EW-Fe0">
+                                <rect key="frame" x="55" y="287" width="269" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -57,6 +64,7 @@
                         <outlet property="idiDugme" destination="ITe-hQ-cjO" id="3OJ-bi-TUX"/>
                         <outlet property="jezikDugme" destination="5d3-9B-TMe" id="UvE-XY-tkI"/>
                         <outlet property="label" destination="jF0-VW-eAW" id="5cG-T1-bvL"/>
+                        <outlet property="label2" destination="J9y-EW-Fe0" id="fZQ-DM-09T"/>
                         <segue destination="JnD-5F-9VY" kind="show" identifier="idiNa" id="K8m-kP-5yO"/>
                     </connections>
                 </viewController>
@@ -83,7 +91,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableKey" value="strings.Dashboard.DBAmountToSpend"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableKey" value="animals.cats.cat"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4z-57-bxn" customClass="LocalizeButton" customModule="Localize">

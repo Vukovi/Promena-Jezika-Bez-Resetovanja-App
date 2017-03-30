@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183CB10B1E8A8DA1008257C8 /* Localize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CB10A1E8A8DA1008257C8 /* Localize.framework */; };
+		183CB10C1E8A8DA8008257C8 /* Localize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183CB10A1E8A8DA1008257C8 /* Localize.framework */; };
+		183CB10D1E8A8DA8008257C8 /* Localize.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 183CB10A1E8A8DA1008257C8 /* Localize.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		183CB1121E8A975D008257C8 /* XMLDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CB1111E8A975D008257C8 /* XMLDictionary.swift */; };
 		18894A851E8910AA00A66662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18894A841E8910AA00A66662 /* AppDelegate.swift */; };
 		18894A871E8910AA00A66662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18894A861E8910AA00A66662 /* ViewController.swift */; };
 		18894A8C1E8910AA00A66662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18894A8B1E8910AA00A66662 /* Assets.xcassets */; };
@@ -16,12 +20,12 @@
 		18894AB71E8910EE00A66662 /* values.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18894AB61E8910EE00A66662 /* values.txt */; };
 		18894ABD1E89126200A66662 /* AssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18894ABC1E89126200A66662 /* AssetsManager.swift */; };
 		18894ABF1E89126800A66662 /* FileSaveHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18894ABE1E89126800A66662 /* FileSaveHelper.swift */; };
-		18894AC01E8912FC00A66662 /* Localize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18894ABA1E89121600A66662 /* Localize.framework */; };
-		18894AC11E8912FC00A66662 /* Localize.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18894ABA1E89121600A66662 /* Localize.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18894AC81E891C8D00A66662 /* jezik-en.json in Resources */ = {isa = PBXBuildFile; fileRef = 18894AC71E891C8D00A66662 /* jezik-en.json */; };
 		18894ACA1E891D7000A66662 /* jezik-sq.json in Resources */ = {isa = PBXBuildFile; fileRef = 18894AC91E891D7000A66662 /* jezik-sq.json */; };
 		18894ACD1E891EFB00A66662 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18894ACC1E891EFB00A66662 /* SecondViewController.swift */; };
 		18894ACF1E89376B00A66662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18894AD11E89376B00A66662 /* Main.storyboard */; };
+		189B2F6C1E8A6BB200D05CB0 /* jezik-en.xml in Resources */ = {isa = PBXBuildFile; fileRef = 189B2F6B1E8A6BB200D05CB0 /* jezik-en.xml */; };
+		189B2F6E1E8A6BB600D05CB0 /* jezik-sq.xml in Resources */ = {isa = PBXBuildFile; fileRef = 189B2F6D1E8A6BB600D05CB0 /* jezik-sq.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		18894AC21E8912FC00A66662 /* Embed Frameworks */ = {
+		183CB10E1E8A8DA8008257C8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18894AC11E8912FC00A66662 /* Localize.framework in Embed Frameworks */,
+				183CB10D1E8A8DA8008257C8 /* Localize.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		183CB10A1E8A8DA1008257C8 /* Localize.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Localize.framework; sourceTree = "<group>"; };
+		183CB1111E8A975D008257C8 /* XMLDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLDictionary.swift; sourceTree = "<group>"; };
 		18894A811E8910AA00A66662 /* languageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = languageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18894A841E8910AA00A66662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18894A861E8910AA00A66662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,13 +75,14 @@
 		18894AA41E8910AA00A66662 /* languageTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageTestUITests.swift; sourceTree = "<group>"; };
 		18894AA61E8910AA00A66662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18894AB61E8910EE00A66662 /* values.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = values.txt; sourceTree = "<group>"; };
-		18894ABA1E89121600A66662 /* Localize.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Localize.framework; path = ../Localize.framework; sourceTree = "<group>"; };
 		18894ABC1E89126200A66662 /* AssetsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsManager.swift; sourceTree = "<group>"; };
 		18894ABE1E89126800A66662 /* FileSaveHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSaveHelper.swift; sourceTree = "<group>"; };
 		18894AC71E891C8D00A66662 /* jezik-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "jezik-en.json"; sourceTree = "<group>"; };
 		18894AC91E891D7000A66662 /* jezik-sq.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "jezik-sq.json"; sourceTree = "<group>"; };
 		18894ACC1E891EFB00A66662 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		18894AD01E89376B00A66662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189B2F6B1E8A6BB200D05CB0 /* jezik-en.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "jezik-en.xml"; sourceTree = "<group>"; };
+		189B2F6D1E8A6BB600D05CB0 /* jezik-sq.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "jezik-sq.xml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18894AC01E8912FC00A66662 /* Localize.framework in Frameworks */,
+				183CB10B1E8A8DA1008257C8 /* Localize.framework in Frameworks */,
+				183CB10C1E8A8DA8008257C8 /* Localize.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,9 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183CB1101E8A9742008257C8 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				183CB1111E8A975D008257C8 /* XMLDictionary.swift */,
+			);
+			name = XMLDictionary;
+			sourceTree = "<group>";
+		};
 		18894A781E8910AA00A66662 = {
 			isa = PBXGroup;
 			children = (
+				183CB10A1E8A8DA1008257C8 /* Localize.framework */,
 				18894A831E8910AA00A66662 /* languageTest */,
 				18894A981E8910AA00A66662 /* languageTestTests */,
 				18894AA31E8910AA00A66662 /* languageTestUITests */,
@@ -127,7 +144,7 @@
 		18894A831E8910AA00A66662 /* languageTest */ = {
 			isa = PBXGroup;
 			children = (
-				18894ABA1E89121600A66662 /* Localize.framework */,
+				183CB1101E8A9742008257C8 /* XMLDictionary */,
 				18894A841E8910AA00A66662 /* AppDelegate.swift */,
 				18894A861E8910AA00A66662 /* ViewController.swift */,
 				18894ACC1E891EFB00A66662 /* SecondViewController.swift */,
@@ -138,6 +155,8 @@
 				18894A8D1E8910AA00A66662 /* LaunchScreen.storyboard */,
 				18894AC91E891D7000A66662 /* jezik-sq.json */,
 				18894AC71E891C8D00A66662 /* jezik-en.json */,
+				189B2F6B1E8A6BB200D05CB0 /* jezik-en.xml */,
+				189B2F6D1E8A6BB600D05CB0 /* jezik-sq.xml */,
 				18894AB61E8910EE00A66662 /* values.txt */,
 				18894A901E8910AA00A66662 /* Info.plist */,
 			);
@@ -172,7 +191,7 @@
 				18894A7D1E8910AA00A66662 /* Sources */,
 				18894A7E1E8910AA00A66662 /* Frameworks */,
 				18894A7F1E8910AA00A66662 /* Resources */,
-				18894AC21E8912FC00A66662 /* Embed Frameworks */,
+				183CB10E1E8A8DA8008257C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,7 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18894ACF1E89376B00A66662 /* Main.storyboard in Resources */,
+				189B2F6E1E8A6BB600D05CB0 /* jezik-sq.xml in Resources */,
 				18894A8F1E8910AA00A66662 /* LaunchScreen.storyboard in Resources */,
+				189B2F6C1E8A6BB200D05CB0 /* jezik-en.xml in Resources */,
 				18894A8C1E8910AA00A66662 /* Assets.xcassets in Resources */,
 				18894AC81E891C8D00A66662 /* jezik-en.json in Resources */,
 				18894AB71E8910EE00A66662 /* values.txt in Resources */,
@@ -301,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18894A871E8910AA00A66662 /* ViewController.swift in Sources */,
+				183CB1121E8A975D008257C8 /* XMLDictionary.swift in Sources */,
 				18894A851E8910AA00A66662 /* AppDelegate.swift in Sources */,
 				18894ABF1E89126800A66662 /* FileSaveHelper.swift in Sources */,
 				18894ACD1E891EFB00A66662 /* SecondViewController.swift in Sources */,
@@ -459,6 +481,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/languageTest",
 				);
 				INFOPLIST_FILE = languageTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -475,6 +498,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/languageTest",
 				);
 				INFOPLIST_FILE = languageTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -557,6 +581,7 @@
 				18894AAB1E8910AA00A66662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18894AAC1E8910AA00A66662 /* Build configuration list for PBXNativeTarget "languageTestTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +590,7 @@
 				18894AAE1E8910AA00A66662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18894AAF1E8910AA00A66662 /* Build configuration list for PBXNativeTarget "languageTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +599,7 @@
 				18894AB11E8910AA00A66662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
